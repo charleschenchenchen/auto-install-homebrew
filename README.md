@@ -51,7 +51,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/<your-username>/auto-install-homebrew.git
+git clone https://github.com/charleschenchenchen/auto-install-homebrew.git
 cd auto-install-homebrew
 
 # 添加执行权限并运行
@@ -62,10 +62,9 @@ chmod +x install-brew.sh
 ### 一行命令（远程执行）
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/<your-username>/auto-install-homebrew/main/install-brew.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/charleschenchenchen/auto-install-homebrew/main/install-brew.sh)"
 ```
 
-> 将 `<your-username>` 替换为你的 GitHub 用户名或组织名。
 
 ### 安装完成后
 
@@ -341,7 +340,7 @@ auto-install-homebrew/
 
 ## 许可证
 
-MIT License（如需添加 LICENSE 文件，可在仓库中补充）
+MIT License
 
 ---
 
